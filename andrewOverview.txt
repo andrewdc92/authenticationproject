@@ -1,0 +1,10 @@
+api version: v2.9
+
+app id: 1775058056118000
+
+app secret 8869080a6741c36b5b5dd415f62f73c8
+
+authenticationproject2 is the file i'm working on.  authenticationproject in
+cludes firebase which I figure would be a bit tougher to work with.
+I was trying to add this to the beginning of another project but i begin to have trouble with the redirect uri.
+let me know if you can figure anything out.  Thanks!

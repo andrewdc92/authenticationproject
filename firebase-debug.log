@@ -1,0 +1,128 @@
+[debug] [2017-06-12T13:32:34.016Z] ----------------------------------------------------------------------
+[debug] [2017-06-12T13:32:34.018Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\vince\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-12T13:32:34.018Z] CLI Version:  3.9.1
+[debug] [2017-06-12T13:32:34.018Z] Platform:     win32
+[debug] [2017-06-12T13:32:34.018Z] Node Version: v6.10.2
+[debug] [2017-06-12T13:32:34.018Z] Time:         Mon Jun 12 2017 09:32:34 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T13:32:34.018Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-12T13:32:34.028Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-12T13:32:34.028Z] > authorizing via signed-in user
+[debug] [2017-06-12T13:32:34.030Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-12T13:32:34.030Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/RyahlL14hvlqHv6WISMrzs_06Q3s1C8gYkrYEPAKokE',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jun 12 2017 09:32:34 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T13:32:34.225Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T13:32:34.235Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/user-authentication-2d579  
+ Mon Jun 12 2017 09:32:34 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T13:32:34.855Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T13:32:34.857Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/user-authentication-2d579/tokens  
+ Mon Jun 12 2017 09:32:34 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T13:32:35.245Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\vince\desktop\authenticationproject'...
+[info] 
+[debug] [2017-06-12T13:32:35.256Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/user-authentication-2d579  
+ Mon Jun 12 2017 09:32:35 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T13:32:35.529Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T13:32:35.530Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/597376499627/clients/_:getWebAppConfig  
+ Mon Jun 12 2017 09:32:35 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T13:32:36.065Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T13:32:36.117Z] TypeError: Cannot read property 'public' of undefined
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-06-12T13:48:48.448Z] ----------------------------------------------------------------------
+[debug] [2017-06-12T13:48:48.450Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\vince\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-12T13:48:48.450Z] CLI Version:  3.9.1
+[debug] [2017-06-12T13:48:48.450Z] Platform:     win32
+[debug] [2017-06-12T13:48:48.450Z] Node Version: v6.10.2
+[debug] [2017-06-12T13:48:48.451Z] Time:         Mon Jun 12 2017 09:48:48 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T13:48:48.451Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-12T13:48:48.462Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-12T13:48:48.462Z] > authorizing via signed-in user
+[debug] [2017-06-12T13:48:48.464Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/user-authentication-2d579  
+ Mon Jun 12 2017 09:48:48 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T13:48:48.894Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T13:48:48.897Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/user-authentication-2d579/tokens  
+ Mon Jun 12 2017 09:48:48 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T13:48:49.284Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\vince\desktop\authenticationproject'...
+[info] 
+[debug] [2017-06-12T13:48:49.297Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/user-authentication-2d579  
+ Mon Jun 12 2017 09:48:49 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T13:48:49.719Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T13:48:49.720Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/597376499627/clients/_:getWebAppConfig  
+ Mon Jun 12 2017 09:48:49 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T13:48:50.574Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T13:48:50.614Z] TypeError: Cannot read property 'public' of undefined
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-06-12T14:00:28.101Z] ----------------------------------------------------------------------
+[debug] [2017-06-12T14:00:28.101Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\vince\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-12T14:00:28.105Z] CLI Version:  3.9.1
+[debug] [2017-06-12T14:00:28.105Z] Platform:     win32
+[debug] [2017-06-12T14:00:28.105Z] Node Version: v6.10.2
+[debug] [2017-06-12T14:00:28.105Z] Time:         Mon Jun 12 2017 10:00:28 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T14:00:28.105Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-12T14:00:28.113Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-12T14:00:28.113Z] > authorizing via signed-in user
+[debug] [2017-06-12T14:00:28.113Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/user-authentication-2d579  
+ Mon Jun 12 2017 10:00:28 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T14:00:28.543Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T14:00:28.543Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/user-authentication-2d579/tokens  
+ Mon Jun 12 2017 10:00:28 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T14:00:29.094Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\vince\desktop\authenticationproject'...
+[info] 
+[debug] [2017-06-12T14:00:29.110Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/user-authentication-2d579  
+ Mon Jun 12 2017 10:00:29 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T14:00:29.350Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T14:00:29.354Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/597376499627/clients/_:getWebAppConfig  
+ Mon Jun 12 2017 10:00:29 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T14:00:29.825Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T14:00:29.873Z] TypeError: Cannot read property 'public' of undefined
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-06-12T15:35:42.362Z] ----------------------------------------------------------------------
+[debug] [2017-06-12T15:35:42.365Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\vince\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-12T15:35:42.365Z] CLI Version:  3.9.1
+[debug] [2017-06-12T15:35:42.365Z] Platform:     win32
+[debug] [2017-06-12T15:35:42.365Z] Node Version: v6.10.2
+[debug] [2017-06-12T15:35:42.365Z] Time:         Mon Jun 12 2017 11:35:42 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T15:35:42.366Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-12T15:35:42.377Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-12T15:35:42.378Z] > authorizing via signed-in user
+[debug] [2017-06-12T15:35:42.379Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-12T15:35:42.379Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/RyahlL14hvlqHv6WISMrzs_06Q3s1C8gYkrYEPAKokE',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jun 12 2017 11:35:42 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T15:35:42.583Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T15:35:42.594Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/user-authentication-2d579  
+ Mon Jun 12 2017 11:35:42 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T15:35:43.096Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T15:35:43.097Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/user-authentication-2d579/tokens  
+ Mon Jun 12 2017 11:35:43 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T15:35:43.480Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\vince\desktop\authenticationproject'...
+[info] 
+[debug] [2017-06-12T15:35:43.492Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/user-authentication-2d579  
+ Mon Jun 12 2017 11:35:43 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T15:35:43.789Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T15:35:43.790Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/597376499627/clients/_:getWebAppConfig  
+ Mon Jun 12 2017 11:35:43 GMT-0400 (Eastern Daylight Time)
+[debug] [2017-06-12T15:35:44.301Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-12T15:35:44.338Z] TypeError: Cannot read property 'public' of undefined
+[error] 
+[error] Error: An unexpected error has occurred.
